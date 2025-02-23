@@ -14,7 +14,7 @@ CSS\
 JavaScript\
 PHP\
 MySQL\
-XAMPP\
+XAMPP
 
 ## Features:
 1. User Authentication (PHP & MySQL)
