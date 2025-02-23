@@ -1,5 +1,5 @@
 
-# EVENTIFY
+<h1> EVENTIFY </h1>
 
 
 ## Project Idea:
