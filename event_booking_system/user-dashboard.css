@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1f1c2c;
+    padding: 10px 20px; /* Adjusted padding for the navbar */
+    display: flex;
+    justify-content: space-between; /* Spaces out the heading and the logout link */
+    align-items: center; /* Vertically center the items */
+}
+
+nav h2 {
+    color: #fff; /* White color for the heading */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem; /* Adjusted font size */
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+}
+
+nav a {
+    color: #928dab; /* Light gray for links */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #fff; /* White color on hover */
+}
+
+/* Available Events Heading Styles */
+h3 {
+    color: #1f1c2c;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    margin-left: 20px; /* Move the heading to the right */
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Button Styles */
+button {
+    background-color: #1f1c2c;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #928dab;
+}
+
+/* Sold Out Styling */
+table td p {
+    color: red;
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #928dab;
+    color: #fff;
+}
+
+table td a {
+    text-decoration: none;
+    color: #1f1c2c;
+    font-weight: bold;
+}
+
+table td a:hover {
+    color: #928dab;
+}
+
+/* Form Styling (for Register/Cancel Actions) */
+form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Messages for Success or Error */
+.success-message {
+    color: green;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    table td, table th {
+        font-size: 0.9rem;
+    }
+}
