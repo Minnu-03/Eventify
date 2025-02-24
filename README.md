@@ -21,6 +21,8 @@ XAMPP
 2. Event Management (Admin Side)
 3. User-side Event Interaction
 4. Frontend Features: Responsive UI, Clean and User-friendly Interface, Event Details Page.
+5. Prevent users from booking the same event multiple times.
+6. Users can cancel their registrations.
 
 ## Sample login credentials:
 Admin:\
