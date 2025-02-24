@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1f1c2c;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+}
+
+nav a {
+    color: #928dab;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Headings */
+h2, h3 {
+    color: #1f1c2c;
+}
+
+h2, h3 {
+    color: #1f1c2c;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Main Container for Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #1f1c2c;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #1f1c2c;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+form button {
+    background-color: #1f1c2c;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #928dab;
+}
+
+/* Table Styles */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #928dab;
+    color: #fff;
+}
+
+table td a {
+    text-decoration: none;
+    color: #1f1c2c;
+    font-weight: bold;
+}
+
+table td a:hover {
+    color: #928dab;
+}
+
+/* Action Links */
+table td a {
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table td, table th {
+        font-size: 0.9rem;
+    }
+}
+
+/* Message for successful actions */
+.success-message {
+    color: green;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Hover and Transition Effects */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+form button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4);
+}
+
+/* Fade-in Animation */
+.container > * {
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
