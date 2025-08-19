@@ -39,3 +39,13 @@ password: johndoe
 
 https://github.com/user-attachments/assets/89413dfa-f0a3-4d74-bc4a-0902a978154b
 
+
+## Future Updates  
+
+This project is still evolving, and I’d love to make it even better.  
+If you’d like to fork the repo and contribute new features, feel free to jump in!  
+
+### Planned Features  
+- **API Integration** – Incorporate external APIs to enhance event management and user experience.  
+- **Personalized Event Reminders** – Notify users via WhatsApp or SMS a day before or just a few hours prior to the event.  
+- **AI-Powered Enhancements** – Use AI to automate smart reminders and build a simple chatbot for event queries and assistance.  
